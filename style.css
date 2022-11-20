@@ -1,0 +1,145 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #b40459;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Questrial', sans-serif;
+  padding: 1em;
+  margin: 0;
+  font-family: 'Rubik Bubbles', cursive;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color:  #49297a;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: left;
+  background-color: #b40459;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #ffffff ;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+font-family: 'Rubik Bubbles', cursive;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #49297a}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.dropcolor{
+
+background-color: #b40459;  
+}
+header{
+
+  height: 800px;
+  width: 100%;
+background-image: url("https://cdn.pixabay.com/photo/2015/01/14/19/22/massage-599532_960_720.jpg");
+  text-align:center;
+  background-position:center;
+  background-size: cover;
+}
+
+h1{
+color: white;
+font-family: 'Rubik Bubbles', cursive;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #49297a !important;
+}
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited {
+    background-color: #49297a !important;
+}
+
+.btn-primary {
+  background-color: #b40459  !important;
+  border-color: white !important;
+}
+.btn-success {
+  background-color:  #b40459 !important;
+  border-color: white !important;
+}
+
+a{
+  color: #ffffff !important;
+  font-family: 'Rubik Bubbles', cursive;
+  text-decoration: none;
+  
+}
+
+.whitep{
+color: white; 
+    font-family: 'Rubik Bubbles', cursive;
+}
+a:link, a:visited {
+
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.space { margin-top: 300px; }
+.hpink{
+
+color:  #b40459;
+text-align: center !important;
+}
+.ppink{
+
+color:  #49297a;
+  font-family: 'Rubik Bubbles', cursive;
+  text-align: center ;
+}
+.creditl{
+text-align: center !important;
+  color:  #b40459 !important;
+   font-family: 'Rubik Bubbles', cursive;
+}
+.linky{
+  text-align: center;
+}
+
+.back{
+  text-align:center;
+}
+h3{
+color:  #49297a;
+  font-family: 'Rubik Bubbles', cursive;
+  text-align: center ;
+
+}
